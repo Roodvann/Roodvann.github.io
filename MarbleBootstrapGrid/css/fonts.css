@@ -1,0 +1,40 @@
+/*RobotoRegular*/
+@font-face {
+	font-family: "RobotoRegular";
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot");
+	src: url("../fonts/RobotoRegular/RobotoRegular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoRegular/RobotoRegular.woff") format("woff"),
+			 url("../fonts/RobotoRegular/RobotoRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/*RobotoSlabBold*/
+@font-face {
+	font-family: "RobotoSlabBold";
+	src: url("../fonts/RobotoSlabBold/RobotoSlab-Bold.eot");
+	src: url("../fonts/RobotoSlabBold/RobotoSlab-Bold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoSlabBold/RobotoSlab-Bold.woff") format("woff"),
+			 url("../fonts/RobotoSlabBold/RobotoSlab-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/*RobotoSlabRegular*/
+@font-face {
+	font-family: "RobotoSlabRegular";
+	src: url("../fonts/RobotoSlabRegular/RobotoSlab-Regular.eot");
+	src: url("../fonts/RobotoSlabRegular/RobotoSlab-Regular.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoSlabRegular/RobotoSlab-Regular.woff") format("woff"),
+			 url("../fonts/RobotoSlabRegular/RobotoSlab-Regular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+/*RobotoCondensedBold*/
+@font-face {
+	font-family: "RobotoCondensedBold";
+	src: url("../fonts/RobotoCondensedBold/RobotoCondensed-Bold.eot");
+	src: url("../fonts/RobotoCondensedBold/RobotoCondensed-Bold.eot?#iefix") format("embedded-opentype"),
+			 url("../fonts/RobotoCondensedBold/RobotoCondensed-Bold.woff") format("woff"),
+			 url("../fonts/RobotoCondensedBold/RobotoCondensed-Bold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
