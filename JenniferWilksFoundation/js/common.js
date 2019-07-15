@@ -1,3 +1,12 @@
+// preloader
+jQuery(document).ready(function($) {
+    $(window).load(function() {
+        setTimeout(function() {
+            $('.preloader').fadeOut('slow', function() {});
+        }, 500);
+
+    });
+});
 // responsive burger menu
 $(document).ready(function () {
     $('.menu__burger, .menu__burger-list').click(function () {
@@ -62,4 +71,16 @@ $(function(){
             }
         ]
     });
+});
+
+// top button
+$(window).scroll(function() {
+    if ($(this).scrollTop() > $(this).height()) {
+        $('.top').addClass('active');
+    } else {
+        $('.top').removeClass('active');
+    }
+});
+$('.top').click(function() {
+    $('html, body').stop().animate({scrollTop: 0}, 'slow', 'swing');
 });
