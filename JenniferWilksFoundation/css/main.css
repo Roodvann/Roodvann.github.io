@@ -1013,6 +1013,38 @@ h3 {
       transition: all .3s; }
 
 /* footer end*/
+
+/* top start*/
+.top {
+  position: fixed;
+  bottom: 25px;
+  right: -100px;
+  background-color: #0054A4;
+  z-index: 6000;
+  border-radius: 10em;
+  color: #666;
+  font-size: 26px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+  -webkit-transition: all .3s ease;
+  -moz-transition: all .3s ease;
+  -o-transition: all .3s ease;
+  transition: all .3s ease;
+  opacity: .5; }
+  .top i {
+    line-height: 0; }
+  .top:hover {
+    color: #fff;
+    background-color: #4D76A3;
+    opacity: 1; }
+  .top.active {
+    right: 25px; }
+
+/* top end*/
+
 /*  media queries start */
 /*  media queries start */
 /*==========  Desktop First Method  ==========*/
